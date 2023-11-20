@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding:0
+}
+
+nav{
+    font-family:'lora' ;
+    font-size: 5px;
+    display: grid;
+    width: 100%;
+    position: fixed;
+}
+
+.menu-superior{
+    width: 100%;
+    display: flex; 
+    justify-content:space-between ;
+    position: fixed;
+    height: 5rem;
+    
+}
+
+.paginainicial-logo{
+    width: 20rem;
+    height:5rem;
+    display: flex;
+    justify-content: center;
+
+}
+.logo{
+    margin: 1rem 1rem;
+    width: 5rem;
+}
+.paginainicial-logo span{
+    color :white;
+    font-family:'lora';
+    font-size:1rem;
+    text-decoration: none;
+
+
+
+}
+
+.menu{
+    display: inline-flex;
+    text-align: center;
+    list-style: none;
+    font-size: 1.3rem;
+    justify-content: flex-end;
+}
+
+.menu a{
+    text-decoration: none;
+    color :white;
+    text-align: center;
+    padding-right: 15px;
+    text-transform: initial;
+    padding-top: 2.3rem;
+    display: flex;
+    align-items: center;
+}
+.menu li{
+    margin-left: 2rem;
+}
